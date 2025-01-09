@@ -1,14 +1,40 @@
+
 body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    height: 100vh;  
+    margin: 0;
+    background-color: #ffffff;
+    flex-direction: column; 
+    text-align: center; 
+}
+
+.start-button {
+    display: inline-block;
+    padding: 12px 24px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 8px;
+    transition: text-decoration 0.3s;
+}
+
+
+.start-button:hover {
+    text-decoration: underline;
+}body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff; /* 米白色背景 */
+    background-color: #ffffff; 
     text-align: center;
     padding: 20px;
 }
 
-/* 資料夾外觀 */
+
 .folder {
     width: 60%;
-    background-color: #e0d9c8; /* 淡米色資料夾 */
+    background-color: #e0d9c8; 
     padding: 15px;
     margin: 10px auto;
     border-radius: 10px 10px 0 0;
@@ -20,7 +46,7 @@ body {
     position: relative;
 }
 
-/* 模擬資料夾的標籤 */
+
 .folder::before {
     content: "";
     position: absolute;
@@ -32,7 +58,7 @@ body {
     border-radius: 8px 8px 0 0;
 }
 
-/* 資料夾內的內容區塊 */
+
 .folder-content {
     display: none;
     background-color: #ffffff;

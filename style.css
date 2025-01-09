@@ -5,7 +5,6 @@ body[data-page="web"] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     margin: 0;
     background-color: #ffffff;
     text-align: center;
@@ -13,7 +12,6 @@ body[data-page="web"] {
 
 body[data-page="web"] img {
     display: block;
-    max-width: 100%;
     height: auto;
     margin-bottom: 20px;
 }

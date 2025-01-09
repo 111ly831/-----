@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* 米白色背景 */
+    text-align: center;
+    padding: 20px;
+}
+
+/* 資料夾外觀 */
+.folder {
+    width: 60%;
+    background-color: #e0d9c8; /* 淡米色資料夾 */
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    position: relative;
+}
+
+/* 模擬資料夾的標籤 */
+.folder::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    width: 60px;
+    height: 20px;
+    background-color: #e0d9c8;
+    border-radius: 8px 8px 0 0;
+}
+
+/* 資料夾內的內容區塊 */
+.folder-content {
+    display: none;
+    background-color: #ffffff;
+    width: 58%;
+    margin: 0 auto;
+    padding: 15px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}

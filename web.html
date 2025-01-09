@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joy's Page</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- 連結外部 CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <img src="41575A98-163B-4E8D-813C-DEAD243977C9.PNG" width="300">
+    <h2>Hi, I'm Joy.</h2>
+
+    <a href="nextpage.html" class="start-button">Let’s Start!</a>
+</body>
+</html>
+/* 設定整個頁面的字體與置中 */
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    height: 100vh;  
+    margin: 0;
+    background-color: #ffffff;
+    flex-direction: column; 
+    text-align: center; 
+}
+
+/* 設定按鈕樣式 */
+.start-button {
+    display: inline-block;
+    padding: 12px 24px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 8px;
+    transition: text-decoration 0.3s;
+}
+
+/* 滑鼠懸停時讓按鈕底部出現底線 */
+.start-button:hover {
+    text-decoration: underline;
+}
